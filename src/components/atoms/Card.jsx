@@ -18,7 +18,12 @@ const Card = ({ header, description, requrement }) => {
         </h3>
         <ul className="pl-14 list-decimal">
           {requrement.map((item, index) => (
-            <li key={index} className="text-gray-160 text-base font-normal my-1">{item.req}</li>
+            <li
+              key={index}
+              className="text-gray-160 text-base font-normal my-1"
+            >
+              {item.req}
+            </li>
           ))}
         </ul>
       </div>
