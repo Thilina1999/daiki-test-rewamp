@@ -1,5 +1,5 @@
 body {
-    background-color: #f0f0f0;
+    background-color: #EEF1F9;
 }
 
 .App {
@@ -9,8 +9,8 @@ body {
 
   @media (min-width: 768px) {
     .App {
-      padding-left: 50px;
-      padding-right: 50px;
+      padding-left: 7rem;
+      padding-right: 7rem;
     }
   }
 
