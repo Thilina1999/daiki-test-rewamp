@@ -6,7 +6,6 @@ import { handleNavTitleClick } from "../../utils/NavTransition";
 const NavLinks = ({ isOpen, setCollapsed }) => {
   const [navItemsList, setNavItemsList] = useState(navLinkTitleItems);
 
-  console.log(navItemsList);
   return (
     <div className="md:flex items-center justify-between ">
       <ul

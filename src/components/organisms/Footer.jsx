@@ -9,7 +9,6 @@ const Footer = () => {
     }
     return filtered;
   }, []);
-  console.log(Address);
   const PhoneNo = contactFooterLinkItems.reduce(function (filtered, option) {
     if (option.type === 2) {
       filtered.push({ header: option.header });
