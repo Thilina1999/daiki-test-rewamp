@@ -22,7 +22,6 @@ module.exports = {
       fontSize: {
         mainTitle: ["3.125rem", { fontWeight: "800" }],
         cardTitle: ["1.725rem", { fontWeight: "600" }],
-        FooterTitle: ["1.125rem", { fontWeight: "600" }],
       },
       height: {
         17: "4.25rem", // 68px

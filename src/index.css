@@ -25,35 +25,11 @@ code {
   display: flex;
 }
 
-/* div {
-  padding-left: 20px;
-  padding-right: 20px;
-} */
-
-/* Define the slide from right to left animation */
-@keyframes slideFromRight {
-  from {
-    transform: translateX(100%);
-  }
-  to {
-    transform: translateX(0);
-  }
-}
-
-/* Apply the animation to the element */
-.slide-from-right {
-  animation: slideFromRight 1s ease-in-out;
-}
-
 .hide { 
   opacity:0;
-  /* filter: blur(5px);
-  transform: translateX(-100%); */
   transition: all 1.5s;
 }
 
-.show{
+.show {
   opacity:1;
-  /* filter:blur(0);
-  transform: translateX(0) */
 } 
