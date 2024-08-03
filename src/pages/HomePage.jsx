@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Title from "../components/organisms/Title";
+import Welcome from "../components/organisms/Welcome";
 
 const HomePage = () => {
   useEffect(() => {
@@ -22,9 +23,10 @@ const HomePage = () => {
   }, []);
 
   return (
-    <>
+    <div className="min-h-screen">
       <Title />
-    </>
+      <Welcome />
+    </div>
   );
 };
 

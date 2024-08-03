@@ -18,14 +18,24 @@ module.exports = {
         "light-gray": "#D9D9D9",
         "header-green": "#B2E3DD",
         "title-black": "#2F2D2D",
+        'gray-160': '#52525B'
+      },
+      screens: {
+        'mn': '520px',
+        'mx': '770px',
+        'sx': '930px',
+        'xs': '1030px',
+        '2xl': '1200px', 
+        '3xl': '1550px', 
       },
       fontSize: {
         mainTitle: ["3.125rem", { fontWeight: "800" }],
-        cardTitle: ["1.725rem", { fontWeight: "600" }],
+        cardTitle: ["2.3rem", { fontWeight: "600" }],
       },
       height: {
         17: "4.25rem", // 68px
         27.5: "6.875rem", //110px
+        100: "30rem",
       },
       width: {
         47: "11.75rem", // 188px
