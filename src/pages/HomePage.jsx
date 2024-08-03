@@ -1,17 +1,11 @@
-import React from 'react'
-import Navbar from '../components/organisms/Navbar'
-import Footer from '../components/organisms/Footer'
+import React from "react";
 
 const HomePage = () => {
   return (
     <div>
-        <Navbar />
-        <div className='min-h-screen'>
-        Hello sdfsd
-        </div>
-      <Footer />
+      <div className="min-h-screen">Hello sdfsd</div>
     </div>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;

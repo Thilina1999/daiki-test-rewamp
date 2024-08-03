@@ -19,6 +19,7 @@ const NavLinks = ({ isOpen, setCollapsed }) => {
             <NavTitle
               header={titleItem.header}
               isSelected={titleItem.isSelected}
+              navLink={titleItem.link}
               onClick={() => {
                 setNavItemsList(handleNavTitleClick(index));
                 setCollapsed(true);
