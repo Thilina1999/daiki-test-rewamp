@@ -36,37 +36,37 @@ export const DaikiTeamData = [
   {
     index: 2,
     imageUrl: Team3,
-    name: "Yosuke Nakamura",
+    name: "Ranil Nimalasena",
     title: "Manager",
   },
   {
     index: 3,
     imageUrl: Team4,
-    name: "Yosuke Nakamura",
+    name: "M.A.L. Sandaruwan",
     title: "Accountant",
   },
   {
     index: 4,
     imageUrl: Team5,
-    name: "Yosuke Nakamura",
+    name: "A.A. Sirisena",
     title: "Financial Adviser",
   },
   {
     index: 5,
     imageUrl: Team6,
-    name: "Yosuke Nakamura",
+    name: "Saman De Silva",
     title: "Legal Adviser",
   },
   {
     index: 6,
     imageUrl: Team7,
-    name: "Yosuke Nakamura",
+    name: "Akila Dulanjali",
     title: "Japanese Lecturer",
   },
   {
     index: 7,
     imageUrl: Team8,
-    name: "Yosuke Nakamura",
+    name: "M.S.A. Madhushani",
     title: "Japanese Lecturer",
   },
 ];
