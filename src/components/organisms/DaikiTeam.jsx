@@ -14,7 +14,7 @@ const DaikiTeam = () => {
               "text-4xl font-extrabold text-title-black text-center pb-5"
             }
           />
-          <div className="grid sm:grid-cols-6 md:grid-cols-6 lg:grid-cols-8 gap-5 pt-5 lg:gap-10 pb-5 md:pb-10 justify-items-center">
+          <div className="grid sm:grid-cols-6 md:grid-cols-6 lg:grid-cols-8 gap-5 pt-5 lg:gap-16 pb-5 md:pb-10 justify-items-center">
             {DaikiTeamData.map((item, index) => {
               return (
                 <TeamImage
