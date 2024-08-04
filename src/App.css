@@ -3,14 +3,21 @@ body {
 }
 
 .App {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 1200px) {
     .App {
-      padding-left: 7rem;
-      padding-right: 7rem;
+      padding-left: 9rem;
+      padding-right: 9rem;
+    }
+  }
+
+  @media (min-width: 1500px) {
+    .App {
+      padding-left: 15rem;
+      padding-right: 15rem;
     }
   }
 

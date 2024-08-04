@@ -3,10 +3,10 @@ import React from "react";
 const Card = ({ header, description, requrement }) => {
   return (
     <div
-      className={`group h-100 mn:h-96 sx:h-80 xs:h-100 2xl:h-96 3xl:h-80 flex flex-col overflow-hidden rounded-3xl p-3 cursor-pointer md:col-span-3 relative`}
+      className={`group h-100 mn:h-96 sx:h-80 xs:h-100 2xl:h-96 3xl:h-96 flex flex-col overflow-hidden rounded-3xl p-3 cursor-pointer md:col-span-3 relative`}
     >
       <div className="group absolute inset-0 flex flex-col pt-3 bg-black bg-opacity-5 hover:bg-opacity-20 transition-all duration-300 ease-in-out">
-        <h2 className="flex relative mb-1 mx-auto text-4xl font-extrabold text-black">
+        <h2 className="flex relative mb-1 mx-auto text-center text-4xl font-extrabold text-black">
           {header}
         </h2>
 
