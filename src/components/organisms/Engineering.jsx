@@ -7,11 +7,11 @@ const Engineering = () => {
   return (
     <div className="pb-7 hide">
       <div className="relative rounded-3xl h-auto bg-white md:rounded-10 p-10 bg-no-repeat bg-cover bg-center flex items-center justify-center overflow-hidden shadow-sm">
-        <div className="grid md:grid-cols-6 ">
+        <div className="grid lg:grid-cols-6 ">
           <ContentImages
             src={Image}
-            cols={"md:col-span-3  place-items-center"}
-            styles={"full"}
+            cols={"lg:col-span-3  place-items-center"}
+            styles={""}
           />
           <EngineeringTitle />
         </div>
