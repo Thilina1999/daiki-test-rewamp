@@ -24,11 +24,11 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div>
+    <>
       <Title />
       <Welcome />
       <Content />
-    </div>
+    </>
   );
 };
 

@@ -1,10 +1,11 @@
 import React from 'react'
+import Consult from '../components/organisms/Consult';
 
 const ServicePage = () => {
   return (
-    <div>
-      Service
-    </div>
+    <>
+      <Consult />
+    </>
   )
 }
 

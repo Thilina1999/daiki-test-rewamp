@@ -22,10 +22,10 @@ const AboutPage = () => {
     };
   }, []);
   return (
-    <div>
+    <>
       <AboutUs />
       <DaikiTeam />
-    </div>
+    </>
   );
 };
 

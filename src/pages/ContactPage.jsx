@@ -21,9 +21,9 @@ const ContactPage = () => {
     };
   }, []);
   return (
-    <div>
+    <>
       <ContactUs />
-    </div>
+    </>
   );
 };
 
