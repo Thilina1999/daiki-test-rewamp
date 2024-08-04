@@ -1,23 +1,23 @@
 import React from "react";
-import CounsultTitle from "../molecules/CounsultTitle";
-import Cars from "../../assets/png/cars.png";
+import EngineeringTitle from "../molecules/EngineeringTitle";
+import Image from "../../assets/jpg/poster1_orig.jpg";
 import ContentImages from "../molecules/ContentImages";
 
-const Consult = () => {
+const Engineering = () => {
   return (
-    <div className="pt-7 pb-7 hide">
+    <div className="pb-7 hide">
       <div className="relative rounded-3xl h-auto bg-white md:rounded-10 p-10 bg-no-repeat bg-cover bg-center flex items-center justify-center overflow-hidden shadow-sm">
         <div className="grid md:grid-cols-6 ">
           <ContentImages
-            src={Cars}
-            cols={"md:col-span-3 place-items-center"}
-            styles={""}
+            src={Image}
+            cols={"md:col-span-3  place-items-center"}
+            styles={"full"}
           />
-          <CounsultTitle />
+          <EngineeringTitle />
         </div>
       </div>
     </div>
   );
 };
 
-export default Consult;
+export default Engineering;

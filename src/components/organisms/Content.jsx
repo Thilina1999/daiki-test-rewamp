@@ -10,7 +10,7 @@ const Content = () => {
         <div>
           <div className="grid lg:grid-cols-6 gap-5 lg:gap-10 pb-5 md:pb-10">
             {studyImage.map((item, index) => (
-              <ContentImages key={index} src={item.logo} />
+              <ContentImages key={index} src={item.logo} cols={"lg:col-span-3"}/>
             ))}
           </div>
           <div className="grid md:grid-cols-6">
