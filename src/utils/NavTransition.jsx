@@ -7,5 +7,6 @@ export const handleNavTitleClick = (number) => {
       }
       return { ...item, isSelected: false }
     });
+    localStorage.setItem('navItemsList', JSON.stringify(updateArray));
     return updateArray;
   };

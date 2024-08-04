@@ -1,10 +1,15 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { navLinkTitleItems } from "../../constants/molecules/NavLinks";
 import NavTitle from "../atoms/NavTitle";
 import { handleNavTitleClick } from "../../utils/NavTransition";
 
 const NavLinks = ({ isOpen, setCollapsed }) => {
-  const [navItemsList, setNavItemsList] = useState(navLinkTitleItems);
+  const [navItemsList, setNavItemsList] = useState(() => {
+    const storedNavItems = localStorage.getItem("navItemsList");
+    return storedNavItems ? JSON.parse(storedNavItems) : navLinkTitleItems;
+  });
+  const navigate = useNavigate();
 
   return (
     <div className="md:flex items-center justify-between ">
