@@ -1,10 +1,10 @@
 import React from "react";
 
-const TeamImage = ({ imgURL, name, col, position }) => {
+const TeamImage = ({ imgURL, name, style, position }) => {
   return (
     <div className={`flex flex-col sm:col-span-3 md:col-span-2 lg:col-span-2`}>
       <img
-        className="mx-auto mb-4 h-48 w-48 md:h-52 md:w-52 lg:w-64 lg:h-64 rounded-xl hover:scale-105 duration-300"
+    className={`mx-auto mb-4 ${style} rounded-xl hover:scale-105 duration-300`}
         src={imgURL}
         alt="Avatar"
       />

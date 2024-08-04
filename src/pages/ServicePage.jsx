@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Consult from "../components/organisms/Consult";
 import Language from "../components/organisms/Language";
 import Engineering from "../components/organisms/Engineering";
+import Officails from "../components/organisms/Officails";
 
 const ServicePage = () => {
   useEffect(() => {
@@ -27,6 +28,7 @@ const ServicePage = () => {
       <Consult />
       <Language />
       <Engineering />
+      <Officails />
     </>
   );
 };

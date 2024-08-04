@@ -22,6 +22,7 @@ const DaikiTeam = () => {
                   imgURL={item.imageUrl}
                   name={item.name}
                   position={item.title}
+                  style={"h-48 w-48 md:h-52 md:w-52 lg:w-64 lg:h-64"}
                 />
               );
             })}
