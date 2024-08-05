@@ -10,7 +10,7 @@ const Engineering = () => {
         <div className="grid lg:grid-cols-6 ">
           <ContentImages
             src={Image}
-            cols={"lg:col-span-3  place-items-center"}
+            cols={"lg:col-span-3 justify-center md:place-items-center md:pl-10"}
             styles={""}
           />
           <EngineeringTitle />

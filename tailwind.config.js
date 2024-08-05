@@ -28,6 +28,15 @@ module.exports = {
         '2xl': '1200px', 
         '3xl': '1550px', 
       },
+      keyframes: {
+        scale: {
+          '0%, 100%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.05)' },
+        },
+      },
+      animation: {
+        scale: 'scale 5s infinite',
+      },
       fontSize: {
         mainTitle: ["3.125rem", { fontWeight: "800" }],
         cardTitle: ["2.3rem", { fontWeight: "600" }],
@@ -44,6 +53,7 @@ module.exports = {
         62.5: "15.625rem", // 250px
         68.75: "17.188rem", // 275px
         100: "25rem", // 400px
+        120: "450px"
       },
       borderRadius: {
         3.75: "0.938rem", // 15px

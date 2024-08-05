@@ -10,8 +10,8 @@ const Consult = () => {
         <div className="grid md:grid-cols-6 ">
           <ContentImages
             src={Cars}
-            cols={"md:col-span-3 place-items-center"}
-            styles={""}
+            cols={"md:col-span-3 md:pl-10 sm:justify-center place-items-center md:place-items-center"}
+            styles={"w-120"}
           />
           <CounsultTitle />
         </div>

@@ -15,16 +15,16 @@ const EngineeringTitle = () => {
           "Provides the latest technologies to various manufactures including Automobiles, Ships, Air Crafts and all IT services"
         }
         customStyles={
-          "text-base font-normal text-justify leading-8 text-gray-160 pl-4 md:pr-10"
+          "text-base font-normal text-justify leading-8 text-gray-160 md:pr-10 md:pl-10 px-0"
         }
       />
-      <h3 className="flex mb-1 text-base font-normal text-justify leading-8 text-gray-160 pl-4 md:pr-14">
+      <h3 className="flex mb-1 text-base font-normal text-justify leading-8 text-gray-160 md:pr-10 md:pl-10">
         Head Office : Hiroshima
       </h3>
-      <h3 className="flex mb-1 text-base font-normal text-justify leading-8 text-gray-160 pl-4 md:pr-14">
+      <h3 className="flex mb-1 text-base font-normal text-justify leading-8 text-gray-160 md:pr-10 md:pl-10">
         Branches : Tokyo, Tokai, Osaka, Tohoku, Nagasaki, Fukuoka
       </h3>
-      <h3 className="flex mb-1 text-base font-normal text-justify leading-8 text-gray-160 pl-4 md:pr-14">
+      <h3 className="flex mb-1 text-base font-normal text-justify leading-8 text-gray-160 md:pr-10 md:pl-10">
         Clients : Toyota, Mitsubishi, Hitachi, IHI, Kawasaki, Mazda, etc.
       </h3>
     </div>
